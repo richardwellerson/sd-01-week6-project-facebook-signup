@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar {
-    background-color: #4267B2;
+    height: 82px;
+    min-width: 980px;
+    background-color: #385898;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
