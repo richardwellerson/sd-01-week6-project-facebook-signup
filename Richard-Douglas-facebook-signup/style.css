@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif, inherit;
+}
+
+label {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.title {
+    font-size: 14px;
+}
+
+section {
+    background-color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #475a9a;
+    height: 82.98px;
+    font-size: 14px;
+}
+
+.facebook-logo {
+    width: 170px;
+    left: 33.99px;
+    margin: 17px, 0px, 0px;
+}
