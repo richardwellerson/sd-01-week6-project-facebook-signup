@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <title>Facebook</title>
     <link rel="icon" href=https://www.facebook.com/images/fb_icon_325x325.png>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+
 
 <body>
 
@@ -20,30 +20,19 @@
         <img class="facebook-logo" src="imagem/facebook-logo.jpg" alt="facebook-logo">
         <div class="login">
             <form action="">
-                <table>
-                    <tr>
-                        <th>
-                            <label>Email ou telefone
-                            <input type="email" name="email" autocomplete="off">
-                            </label>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <label for="senha">Senha</label>
-                        </th>
-                        <th>
-                            <input type="password" name="senha" autocomplete="off">
-                        </th>
-                    </tr>
-                    <th>
-                        <input type="button" value="Entrar">
-                    </th>
-                </table>
+                <section>
+                    <label>
+                        <input type="text">
+                    </label>
+                    <label>
+                        <p>Nome</p>
+                        <input type="text">
+                    </label>
+                </section>
             </form>
         </div>
     </div>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css">
+
     <section class="section">
         <div class="Mapa-mundi">
             <div class="textoSentimento">
@@ -55,7 +44,47 @@
             <div class="inputs-criar-conta">
                 <h1 class="title is-1">Abra uma conta</h1>
                 <h4 class="title is-4">É rápido e fácil.</h4>
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-info is-focused" type="text" placeholder="Nome">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-info is-focused" type="text" placeholder="Sobrenome">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-info is-focused" type="text" placeholder="Celular ou email">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <input class="input is-info is-focused" type="password" placeholder="Nova senha">
+                    </div>
+                </div>
 
+                <div class="field">
+                    <div class="control">
+                        <label for="data">Data de nascimento</label>
+                        <input class="input is-info is-focused" name="data" type="text" placeholder="Data de nascimento">
+                    </div>
+                </div>
+                <div class="control">
+                    <label class="radio">
+                        <input type="radio" name="Feminino">
+                        Feminino
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="Masculino">
+                        Masculino
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="Personalizado">
+                        Personalizado
+                    </label>
+                </div>
 
             </div>
         </div>
